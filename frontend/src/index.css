@@ -1,0 +1,47 @@
+:root {
+  --ink: #1b2340;
+  --ink-soft: #4b527a;
+  --bg: #f5f7fa;
+  --surface: #ffffff;
+  --border: #e2e5ec;
+  --brand: #3a3f87;
+  --brand-dark: #2b2f68;
+  --matched: #2f8f76;
+  --matched-bg: #e7f5f1;
+  --gap: #c98a2b;
+  --gap-bg: #fbf1e0;
+  --danger: #c0435a;
+
+  --font-display: 'Space Grotesk', 'Segoe UI', sans-serif;
+  --font-body: 'Inter', 'Segoe UI', sans-serif;
+  --font-mono: 'JetBrains Mono', monospace;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background: var(--bg);
+  color: var(--ink);
+  font-family: var(--font-body);
+  -webkit-font-smoothing: antialiased;
+}
+
+button,
+input,
+textarea {
+  font-family: inherit;
+}
+
+a {
+  color: var(--brand);
+}
+
+:focus-visible {
+  outline: 2px solid var(--brand);
+  outline-offset: 2px;
+}
