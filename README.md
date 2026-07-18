@@ -235,12 +235,3 @@ This project helped me gain practical experience in:
 
 **Pulikanti Jyothika**
 
-GitHub: https://github.com/yourusername
-
-LinkedIn: https://linkedin.com/in/yourprofile
-
----
-
-## License
-
-This project is intended for educational and portfolio purposes.
